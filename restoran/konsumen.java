@@ -8,7 +8,7 @@ public class konsumen {
     Scanner s = new Scanner(System.in);
 
     public void cekMember() {
-        System.out.println("Apakah anda member ? (y/n)");
+        System.out.print("Apakah anda member ? (y/n)");
         String pilMember = s.next();
         switch (pilMember) {
             case "y":
